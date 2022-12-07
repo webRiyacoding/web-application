@@ -1,0 +1,586 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    
+    
+    
+    
+  }
+  :root {
+    --yellow-light:#a9852c;
+    --green:#00a0a8;
+    --orang: #Ff6600;
+    --yellow: #Ff6600;
+    --bgnav: #171717;
+    --white: #ffffff;
+    --primary: 'Lato', sans-serif;;
+    --secondry: 'Ubuntu', sans-serif;;
+    --swiper-theme-color:var(--orang);
+    --background-color:#F4F4F4;
+  }
+  .navbar{
+    background-color: #fff;
+    width: 100%;
+    
+  }
+  .nav-link{
+
+    font-size: 20px;
+    color: #171717!important;
+  }
+  
+  
+
+  .d-flex button {
+
+    margin: 0px 20px;
+
+  } 
+
+  .chat-btn {
+    border: none;
+    font-weight: bold;
+   color: #fff;
+    padding: 10px 30px;
+    border-radius: 10px;
+   background-color: var(--green);
+   font-size: 20px;
+  }
+
+  .chat-btn span {
+
+    color: #fff;
+    font-size: 20px;
+
+  }
+  .chat-btn:hover{
+    
+    background-color: orangered;
+    color: #fff;
+  }
+  .contact-btn
+
+  {
+    font-size: 20px;
+    border: none;
+    color: #fff;
+    background-color: orangered;
+    font-weight: bold;
+    font-family: var(--primary);
+    padding: 10px 40px;
+    border-radius: 10px;
+  }
+  .contact-btn:hover{
+   background-color: rgb(255, 217, 0);
+   color: orangered;
+  }
+  
+     .navbar-light .navbar-toggler span {
+        color: #Ff6600!important;
+        font-size: 35px!important;
+        
+
+      }
+  /* ================style swiper =================================== */
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .swiper-navBtn{
+    font-size: 10px!important;
+    color: orangered!important;
+    background-color: rgba(255, 255, 255, 0.42)!important;
+    padding: 30px 30px;
+    border-radius: 50%;
+  }
+  .swiper-navBtn:hover{
+    color: #fff!important;
+    background-color: rgba(255, 68, 0, 0.706)!important;
+    
+    
+  }
+  .swiper-navBtn::after,
+  .swiper-navBtn::before{
+    font-size: 20px!important;
+    font-weight: bold!important;
+  }
+  .search-section{
+    
+
+    width: 100%;
+    padding: 30px 40px;
+  }
+  .search-container{
+    text-align: center;
+    
+  }
+  .search-container input[type=text] {
+  padding: 20px;
+   width: 70%;
+    font-size: 17px;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow:  1px 1px 30px rgba(0, 0, 0, 0.186);
+  
+  }
+  .search-container button {
+    
+    padding:20px 40px;
+  
+    
+    background: orangered;
+    font-size: 17px;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+  }
+  /* =============body-section===================== */
+  .body-heading{
+    font-size: 30px;
+    font-family: var(--primary);
+    font-weight: bold;
+    color: #Ff6600;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  /* ===============body-check-up-design================================ */
+   .card-body{
+  padding-bottom: 20px;
+  }
+.card-subtitle1{
+  font-size: 16px;
+  font-family: var(--primary);
+  padding-top: 10px;
+  font-weight: 500;
+  color: #171717!important;
+  padding-bottom: 20px;
+
+}
+.list{
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+.card-btn{
+padding: 10px 10px;
+border-radius: 10px;
+background-color: #fff;
+  
+  border: 2px solid #Ff6600;
+}
+.card-btn span{
+  background-color: rgb(255, 170, 0);
+
+  
+}
+/* ===================content-para====================== */
+
+.content-para{
+
+  text-align: center;
+}
+.content-para p{
+  margin: auto;
+color: #a9862cfb;
+background-color: #a9862c11;
+border-radius: 30px;
+line-height: 2;
+
+}
+.view-all-btn{
+  margin-top: 30px;
+  padding: 10px 40px;
+  padding-right: 100px;
+  text-align: left;
+  background-color: #Ff6600;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  font-family: var(--secondary);
+
+}
+.view-all-btn span{
+  background-color: #fff;
+  padding: 5px 10px;
+  color: grey;
+  border-radius: 50%;
+}
+.view-all-btn a{
+  list-style: none;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: var(--secondary);
+}
+.view-all-btn a:hover{
+  list-style: none;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* ==============third slide card==================== */
+
+.card-title2{
+color: orangered;
+font-family: var(--secondary);
+
+}
+.card-text2{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: var(--primary);
+}
+.para-card{
+  font-size: 16px;
+  font-weight: 400;
+  
+}
+.btn-card{
+  background-color: #Ff6600!important;
+  border: none!important;
+  font-size: 18px!important;
+  color: #fff!important;
+  font-weight: 600!important;
+}
+
+.swiper-navBtn3{
+  font-size: 10px!important;
+  color: orangered!important;
+  background-color: rgba(255, 255, 255, 0.42)!important;
+  padding: 30px 30px;
+  border-radius: 50%;
+}
+.swiper-navBtn3:hover{
+  color: #fff!important;
+  background-color: rgba(255, 68, 0, 0.706)!important;
+  
+  
+}
+.swiper-navBtn3::after,
+.swiper-navBtn3::before{
+  font-size: 20px!important;
+  font-weight: bold!important;
+}
+.swiper-pagination{
+  
+  color: #Ff6600!important;
+
+
+  
+}
+.swiper-pagination-bullet {
+  
+ background-color: orangered!important;
+ 
+}
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  bottom: 0px!important;
+
+  left: 0;
+  width: 100%;
+}
+.swiper-slide{
+  margin-bottom: 30px!important;
+}
+/* ===========health-risk====================== */
+   .all-info {
+
+    width: 100%;
+    height: auto;
+    text-align:center ;
+
+   }
+   .all-info img{
+    width: 30%;
+    margin: auto;
+  
+   }
+   .all-info h3
+   {
+    font-size: 30px;
+    font-family: var(--primary);
+    font-weight: bold;
+    color: #Ff6600;
+    text-align: center;
+    padding-bottom: 10px;
+   }
+   .all-info p {
+    font-size: 16px;
+    font-family: var(--secondary);
+    font-weight: 400;
+    text-align: center!important;
+    
+   }
+   .all-info a{
+    text-decoration: none;
+    color: #171717;
+   }
+   .swiper-navBtn4{
+    font-size: 10px!important;
+    color: #fff!important;
+   background-color: rgba(255, 68, 0, 0.706)!important;
+    padding: 10px 20px!important;
+    border-radius: 50%;
+  }
+  .swiper-navBtn4:hover{
+    color: #fff!important;
+    background-color: rgba(255, 68, 0, 0.706)!important;
+    
+    
+  }
+  .swiper-navBtn4::after,
+  .swiper-navBtn4::before{
+    font-size: 15px!important;
+    font-weight: bold!important;
+  }
+  .myslide{
+    /* background-color: #Ff6600!important; */
+    padding: 0px 70px;
+  }
+  /* ============About Work================================== */
+  .right-content{
+    line-height: 2;
+  }
+  .right-content p{
+    padding-bottom: 20px;
+  }
+  .about-btn{
+    background-color: #Ff6600;
+    padding: 10px 40px;
+    border: none;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 18px;
+  }
+  /* ==============Why choose ekon-care======================== */
+  .why-choose ul{
+     text-align: center;
+     list-style: none;
+
+  }
+  .why-choose ul li{
+    padding: 50px;
+  }
+  .why-choose ul li img{
+
+    width: 100px;
+    height: 100px;
+  }
+  .why-choose h6{
+    padding-top: 30px;
+  }
+/* =================Left Intro================= */
+.left-info{
+  padding: 100px;
+}
+.left-info h3{
+  font-size: 30px;
+  font-family: var(--primary);
+  font-weight: bold;
+  color: #Ff6600;
+  text-align: left;
+  padding-bottom: 20px;
+}
+.left-info h4{
+font-size: 25px;
+font-family: var(--secondary);
+font-weight: 400;
+padding: 20px 0px;
+}
+.Excellance-lab{
+
+  margin-top: 100px;
+  background-color: #Ff6600;
+  
+}
+.Excellance-lab h3{
+  font-size: 30px;
+  font-family: var(--primary);
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  padding-top: 20px;
+}
+.Excellance-lab h3 span{
+  color: rgb(255, 230, 0);
+}
+.excellance-container p{
+
+  color: #fff;
+  font-family: var(--primary);
+  padding-bottom: 10px;
+  
+}
+iframe{
+  
+  border-radius: 30px;
+}
+/*=====================footer-design================================= */
+.footer-section{
+  width: 100%;
+  margin-top: 100px;
+}
+ footer{
+  background-color: black;
+  color: white;
+ }
+ .form-container{
+  padding: 20px 0px;
+  
+ }
+ /* form{
+  display: inline-block;
+  
+  text-align: center;
+ } */
+ .form-container h1{
+  padding-bottom: 30px;
+
+ }
+ .form-container label{
+  font-size: 20px;
+  margin-bottom: 20px;
+  
+
+ }
+ .form-container input{
+  padding: 10px 30px;
+  
+  
+ }
+.form-container .submit-btn{
+
+background-color:#Ff6600; 
+padding: 10px 40px;
+border: none;
+border-radius: 30px;
+ }
+ .social-link a{
+
+  color: #fff!important;
+  text-decoration: none!important;
+ }
+ 
+ .social-link span{
+  color: #Ff6600;
+  font-size: 20px;
+ }
+.footer-bottom{
+  background-color: #171717;
+} 
+
+@media screen and (max-width: 1024px) {
+.all-info img{
+  width: 50%;
+}
+  .why-choose ul{
+    flex-direction: column!important;
+  }
+.our-health-checkup{
+  flex-direction: column!important; 
+}
+.intro-smart{
+  flex-direction: column!important; 
+}
+.excellance-container{
+  flex-direction: column!important;
+  
+}
+.d-flex button {
+
+  margin: 0px 0px!important;
+
+} 
+.left-info{
+  padding: 100px !important;
+}
+
+}
+@media screen and (max-width: 769px) {
+  .all-info img{
+    width: 40%;
+}
+
+
+}
+@media screen and (max-width: 400px) {
+  .navbar{
+    width: 100%;
+  }
+  .navbar-light .navbar-toggler {
+
+   color: #Ff6600!important;
+
+  }
+  .left-info{
+    padding: 10px !important;
+  }
+
+  .footer-section{
+    width: 100%;
+  }
+ 
+  .form-container input{
+    flex-direction: column!important;
+    
+    
+   }
+   .why-choose ul {
+    flex-direction: column!important;
+   }
+   .Excellance-lab {
+    width: 100%!important;
+
+   }
+   .d-flex button {
+
+    margin: 0!important;
+
+  } 
+  .all-info img{
+    width: 60%;
+    margin: auto;
+  
+   }
+    .d-flex button {
+
+    margin: 0px 10px!important;
+
+  } 
+
+
+
+}
